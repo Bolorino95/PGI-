@@ -1,0 +1,505 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* Menu */
+
+@font-face{
+	font-family: "Poppins_Complete";
+	src: url("../Fuente/Poppins_Complete/Poppins-Thin.otf");
+}
+
+
+
+.colorham {
+	color: red;
+
+}
+
+.cabecera {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 20px 100px 20px 70px ; 
+	background-color: #F4F4F4;
+	color: #1E1D1F;
+	font-family: Poppins_Complete;
+	height: 10vh;
+	padding-top: 50px;
+}
+
+.cab {
+	display: flex;
+    align-items: center;
+}
+
+nav{
+	width: 90%;
+}
+
+.portada {
+	position: relative;
+	background-color: #F4F4F4;
+	height: 90vh;
+	display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.fondo1 {
+	position: absolute;
+    bottom: 0px;
+	padding: 100px;
+	background-color: #1E1D1F;
+	width: 80%;
+	height: 680px;
+	box-shadow: 0 0 30px -10px;
+
+}
+
+.menu {
+	display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 30px;
+
+}
+
+.DN {
+	font-size: 50px;
+	font-family: Poppins_Complete;
+
+
+}
+
+@font-face {
+	font-family: "Poppins_Completeblack";
+	src: url("../Fuente/Poppins_Complete/Poppins-Black.otf");
+
+}
+
+.DNamarillo {
+	color: #FDC100;
+    left: 80px;
+    top: 80px;
+    position: absolute;
+    font-family: Poppins_Completeblack;
+    font-size: 60px;
+
+}
+
+/* Section */ 
+
+main {
+	background-color: #F4F4F4;;
+
+}
+
+
+.hamburguesa {
+	display: flex;
+    gap: 10px;
+    margin-left: -44px;
+    position: fixed;
+    align-items: center;
+    z-index: 5;
+
+}
+
+
+
+
+
+
+img.DoN {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 975px;
+    min-width: 975px;
+    max-width: 975px;
+	
+}
+
+@font-face {
+	font-family: "Poppins_Completelight";
+	src: url("../Fuente/Poppins_Complete/Poppins-Light.otf");
+
+}
+
+.frase {
+    color: #F4F4F4;
+    width: 551px;
+    text-align: center;
+    margin-left: -19px;
+    margin-top: 85px;
+    font-size: 22px;
+    font-family: Poppins_Completelight;
+}
+
+img.cons{
+	width: 365px;
+
+}
+
+.Todo {
+	display: flex;
+	margin: auto;
+	width: 80%;
+	height: 100vh;
+	padding-top: 100px;
+
+}
+
+.Primero {
+	display: flex;
+
+
+
+
+
+}
+
+.Pnegro {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+	background-color: #1E1D1F;
+    width: 450px;
+    height: 720px;
+    box-shadow: 0 0 30px -10px;
+}
+
+.TPrimero {
+	width: 300px;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+@font-face {
+	font-family: "Poppins_Completeblack";
+	src: url("../Fuente/Poppins_Complete/Poppins-Black.otf");
+
+}
+
+.consistencia {
+	font-size: 35px;
+	font-family: Poppins_Completeblack;
+	color: #C0C0C0;
+}
+
+
+@font-face {
+	font-family: "Poppins_Completelight";
+	src: url("../Fuente/Poppins_Complete/Poppins-Light.otf");
+
+}
+
+.texto1 {
+	font-family: Poppins_Completelight;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.Trozodos{
+	display: flex;
+	gap: 110px;
+	padding-left: 105px;
+
+}
+
+.uno {
+	width: 280px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: solid 6px #FDC100;
+    box-shadow: 0 0 30px -10px;
+
+}
+
+.ofre {
+	width: 220px;
+    margin-left: 16px;
+}
+
+.Ofrecimiento {
+	font-size: 36px;
+    font-family: Poppins_Completeblack;
+    color: #1e1d1f;
+
+}
+
+.texto2 {
+	font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+
+.dos {
+	width: 280px;
+    background-color: #1e1d1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    box-shadow: 0 0 30px -10px;
+}
+
+.pla {width: 240px;
+	width: 240px;
+
+}
+
+.Previsibilidad {
+	font-size: 35px;
+    font-family: Poppins_Completeblack;
+    color: #1e1d1f;
+
+}
+
+.texto3 {
+	font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.tercertexto {
+	font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.tercer {
+	display: flex;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tittres {
+	font-size: 35px;
+    font-family: Poppins_Completeblack;
+    color: #1E1D1F;
+
+}
+
+.imgtercer {
+	width: 75%;
+    height: 75%;
+    object-fit: contain;
+}
+
+.tercerunoimg {
+	display: flex;
+    height: 320px;
+    background-color: #FDC100;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px -10px;
+    flex: 1 1 40%;
+
+}
+
+.terceruno {
+	display: flex;
+    align-items: flex-start;
+
+}
+
+.tercer {
+	display: flex;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.cajatexto {
+	display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    flex: 1 1 70%;
+
+
+}
+
+.tercerdosimg {
+	display: flex;
+	flex: 1 1 40%;
+    height: 320px;
+    background-color: #1E1D1F;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px -10px;
+
+}
+
+.imgtercerdos {
+	width: 75%;
+    object-fit: contain;
+    height: 75%;
+
+}
+
+.tercerdos {
+	display: flex;
+
+}
+
+.tercerdostexto {
+	font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.tittresdos {
+	text-align: end;
+    font-size: 35px;
+    font-family: Poppins_Completeblack;
+    color: #c0c0c0;
+
+}
+
+
+.cajatextodos {
+    flex: 1 1 70%;
+    padding-right: 25px;
+    gap: 20px;
+    padding-right: 25px;
+
+}
+
+.tercedos {
+	display: flex;
+    align-items: flex-start;
+
+}
+
+.photo {
+	width: 600px;
+    background-color: #1E1D1F;
+    object-fit: contain;
+    border: 10px solid #C0C0C0;
+
+}
+
+.cajacuatro {
+	display: flex;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+
+.cuartotexto {
+	font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 12px;
+
+}
+
+.quinto {
+	display: flex;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+
+.quintacaja {
+	width: 100%;
+    height: 75%;
+    background-color: black;
+    position: relative;
+    top: 100px;
+
+}
+
+.mas {
+	width: 75px;
+    padding: 10px;
+
+}
+
+.iconos {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 20%;
+
+}
+
+.ico {
+	width: 80px;
+
+}
+
+.correo {
+	width: 50%;
+    position: relative;
+    height: 8%;
+    background-color: grey;
+    bottom: -200px;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Poppins_Completelight;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 25px;
+    color: black;
+    align-content: center;
+    align-items: center;
+
+}
+
+.enviar {
+	width: 20%;
+    border-radius: 50px;
+    color: black;
+    height: 35px;
+    background-color: #FDC100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+	font-size: 28px;
+    font-family: Poppins_Completeblack;
+    color: #1E1D1F;
+}
